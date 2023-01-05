@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#header-part {
+    background-color: #FFF8F3;
+}
+
+#header-part .main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 50px 0;
+
+
+}
+
+
+#header-part .main .text ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#header-part .main .text ul li {
+    margin-left: 40px;
+}
+
+#header-part .main .text ul li a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+
+
+}
+
+#header-part .logo h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color: black;
+
+}
+
+#header-part .logo span {
+    color: #FD6E0A;
+}
+
+#header-part .main .text .btn {
+    display: inline-block;
+    padding: 18px 35px 19px 36px;
+    background: #FD6E0A;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+}
+
+
+/* ================================ header part css end ======================================== */
+
+#banner-part {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+    height: 837px;
+}
+
+
+
+#banner-part .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner-part .main .text {
+    margin: 200px 200px 0px;
+}
+
+#banner-part .main .text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+#banner-part .main .text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+#banner-part .main .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    padding-right: 347px;
+    margin-top: 20px;
+    width: 585px;
+}
+
+#banner-part .main .text .btn {
+    display: inline-block;
+    padding: 18px 17px 19px 20px;
+    background-color: #FD6E0A;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#banner-part .main .img {
+    margin-top: 160px;
+}
+
+
+/* ============================= banner part end =============================== */
+
+#about-part {
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    height: 550px;
+    margin-top: 150px;
+}
+
+#about-part .text {
+    padding: 137px 157px 125px 156px;
+}
+
+#about-part .text h3 {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+#about-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    line-height: 30px;
+}
+
+#about-part .about-info {
+    display: flex;
+    margin-left: 30px;
+
+}
+
+#about-part .about-info .name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+#about-part .about-info .about-description {
+    margin: 20px 20px;
+}
+
+/* ===================== about part css end ============================== */
+#gellary-part {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#gellary-part .title h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+#gellary-part .title p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    padding: 0 100px;
+    width: 909px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#gellary-part .gellary-item {
+    width: 267px;
+    height: 377px;
+    background-color: #fff;
+    float: left;
+    border-radius: 5px;
+    margin: 0 9px;
+    box-shadow:0px 0px 50px #0000000F;
+
+}
+
+#gellary-part .gellary-item .img {
+    padding: 30px 193px 0px 30px;
+}
+
+#gellary-part .gellary-item h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    text-align: left;
+    padding: 30px 0 30px 30px;
+}
+
+#gellary-part .gellary-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    padding: 0 33px;
+    text-align: left;
+}

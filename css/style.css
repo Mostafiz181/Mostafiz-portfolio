@@ -179,7 +179,7 @@ a {
 }
 
 /* ===================== about part css end ============================== */
-#gellary-part {
+#gallery-part {
     max-width: 1140px;
     margin: 0 auto;
     height: 200px;
@@ -187,14 +187,14 @@ a {
     padding-top: 50px;
 }
 
-#gellary-part .title h2 {
+#gallery-part .title h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 700;
     color: #181818;
 }
 
-#gellary-part .title p {
+#gallery-part .title p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -206,35 +206,52 @@ a {
     margin-bottom: 50px;
 }
 
-#gellary-part .gellary-item {
-    width: 267px;
-    height: 377px;
-    background-color: #fff;
+#gallery-part .gallery-info {
+    max-width: 1140px;
+    height: 300px;
+    background: ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#gallery-part .gallery-info .gallery-item {
+
+    width: 280px;
+    height: 350px;
+    background: #ffff;
     float: left;
-    border-radius: 5px;
-    margin: 0 9px;
-    box-shadow:0px 0px 50px #0000000F;
+    box-shadow: 0px 0px 10px rgb(231, 216, 216);
 
 }
 
-#gellary-part .gellary-item .img {
-    padding: 30px 193px 0px 30px;
+#gallery-part .gallery-info .gallery-item .test {
+    padding: 30px;
 }
 
-#gellary-part .gellary-item h3 {
+#gallery-part .gallery-info .gallery-item .img {
+    margin-left: -171px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* text-align: left; */
+}
+
+#gallery-part .gallery-info .gallery-item h3 {
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 20px;
-    font-weight: 700;
-    color: #181818;
     text-align: left;
-    padding: 30px 0 30px 30px;
+    margin-bottom: 20px;
 }
 
-#gellary-part .gellary-item p {
+#gallery-part .gallery-info .gallery-item p {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    /* padding: 30px; */
     color: #757575;
-    padding: 0 33px;
-    text-align: left;
 }
+
+
+
+/* ==================================================== */
